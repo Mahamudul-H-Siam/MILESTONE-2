@@ -1,0 +1,9 @@
+.family{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: 700;
+    border: 5px dotted red;
+    margin: 5px 5px;
+    padding: 10px;
+}
