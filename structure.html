@@ -7,10 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My website</title>
     <link rel="shortcut icon" href="images/20240623_212950.jpg" type="image/x-icon">
+    <style>
+        div{
+            background-color: antiquewhite;
+        }
+
+        #list{
+            color: #000;
+            background-color:#fff;
+        }
+
+        .design{
+            text-align:center;
+            
+        }
+
+        #para{
+            background-color: red;
+            color: #000;
+            text-align: center;
+            font-size: 25px;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .pera{
+            background-color:#000;
+            color:red;
+            text-align:center;
+            font-size: 50px;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="color: red;">This is website home page</h1>
+    <h1 class="design" style="color: red;">This is website home page</h1>
     <button>Click me</button>
     <h3>Download this picture using anchore tag</h3>
     <a href="images/Jerry_Mouse.png" download="Jerry_Mouse">
@@ -36,7 +68,7 @@
         </p>
     </div>
 
-    <div>
+    <div id="list">
         <h3><span>What I learn today?</span></h3>
         <ul>
             <li>html</li>
@@ -78,6 +110,9 @@
     <h5 style="color: red;">Front color change</h5>
     <p style="color: aquamarine">Baground color change</p>
     
+
+    <p id="para">I am using here ID. Which is a part of CSS</p>
+    <p class="pera"> I am using here CLASS. Which is a part of CSS</p>
 </body>
 
 </html>
